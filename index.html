@@ -33,7 +33,7 @@
 					<ul>
 						<li>Abuse: <code id="mail-protection-abuse"></code></li>
 						<li>NOC: <code id="mail-protection-noc"></code></li>
-						<li>Support: <code id="mail-protection-support"></code></li>
+						<li>Support: <code id="mail-protection-tech"></code></li>
 					</ul>
 
 					<h2>Service</h2>
@@ -97,7 +97,7 @@
 			</footer>
 
 			<script>
-				['abuse', 'support', 'noc'].forEach(s => document.getElementById('mail-protection-'+s).textContent = [s, 'peers.cloud'].join('@'));
+				['abuse', 'tech', 'noc'].forEach(s => document.getElementById('mail-protection-'+s).textContent = [s, 'peers.cloud'].join('@'));
 			</script>
 		</div>
 	</body>
